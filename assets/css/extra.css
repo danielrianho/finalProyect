@@ -1,0 +1,650 @@
+/* General styles 
+ ---------------------------------------------------------------- */
+
+p {  
+	font-family: sans-serif !important;
+	margin-bottom: 0px !important;
+	font-size: 14px;
+    color: #626262;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+a {
+	color: #626262;	
+	text-decoration: none;
+}
+
+a:hover {
+	color: #999999;
+}
+
+a:active,
+a:hover,
+a:link  {
+	text-decoration: none !important;
+}
+
+
+h1, h3, h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+	margin-bottom: 20px !important;
+	margin-top: 20px !important;
+}
+
+h3 {
+	margin-bottom: 10px !important;
+}
+
+img {
+	border: medium none;
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+/* Body styles 
+ ---------------------------------------------------------------- */
+
+
+.mb-90 {
+	margin-bottom: 90px;
+}
+
+.mb-80 {
+	margin-bottom: 80px;
+}
+
+.mb-70 {
+	margin-bottom: 70px;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.mt-60 {
+	margin-top: 60px;
+}
+
+.mt-70 {
+	margin-top: 70px;
+}
+
+.mt-80 {
+	margin-top: 80px;
+}
+
+.mt-100 {
+	margin-top: 100px;
+}
+
+.pt-50 {
+	padding-top: 50px;
+}
+
+.pt-20 {
+	padding-top: 20px;
+}
+
+.pt-30 {
+	padding-top: 30px;
+}
+
+.pb-60 {
+	padding-bottom: 60px;
+}
+
+
+/* Head styles 
+ ---------------------------------------------------------------- */
+
+#header {
+	background-color: #fff;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+	color: #205193;
+	height: 70px;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	-webkit-transition: background-color 0.5s;
+}
+
+	#header .logo_menu {
+		color: #626262;
+		font-size: 28px;
+		line-height: 70px;
+		text-decoration: none;
+	}
+
+	#header .menu {
+		float: right;
+		margin: 0;
+		padding: 0;
+	}
+
+		#header .menu li {
+			color: white;
+			float: left;
+			font-size: 12px;
+			line-height: 80px;
+			list-style: none;
+			margin-left: 5px;
+			padding: 0 15px;
+			transition: 0.3s ease;
+		}
+
+			#header .menu ul li a {
+				color: #626262;
+				text-decoration: none;
+			}
+
+				#header .menu > li.current_page_item a,
+				#header .menu > li.current-menu-item a
+				 {
+					color:#B5B5B5!important;
+					text-decoration:none;
+				}
+
+	#header .fa-bars,
+	#header .fa-close {
+		color: #626262;
+		float: right;
+		font-size: 20px;
+		line-height: 70px;
+	}
+
+	#header .main-menu {
+		background-color: #FFF;
+		display: none;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		padding-bottom: 2px;
+		position: fixed;
+		width: 100%;
+		z-index: 2;
+	}
+		#header .menu-menu-container > ul {
+			color: black !important;
+		    font-size: 12px;
+		    letter-spacing: 0.15em;
+		    text-transform: uppercase;
+		}
+
+	#header .main-menu li {
+		float: none !important;
+		line-height: 35px;
+	}
+
+		#header .main-menu .menu-menu-container > ul {
+			float:none;
+		}
+
+
+/* Sticky Style
+-------------------------------------------------------------------  */
+
+#header.sticky {
+	background-color: #2A2F35;
+	color: #9B9B9B;
+	width: 100%
+}
+
+	#header.sticky .main-menu{
+		width: 100%;
+	}
+
+	
+	#header.sticky a {
+		color: #7C7C7C;
+		text-decoration: none;
+		
+	}
+
+	#header.sticky a:hover {
+		color: #626262;	
+		text-decoration: none;
+	}
+
+		#header.sticky .main-menu li {
+			background-color: #2A2F35;
+			color: #9B9B9B;
+			
+		}
+
+
+/* Columns section
+-------------------------------------------------------------------  */
+
+section.columns {
+	padding: 40px 0;
+}
+
+	section.columns .fa {
+		color: #205193;
+		display: inline-block;
+		font-size: 70px;
+		height: 100px;
+		line-height: 100px;
+		width: 100px;
+	}
+
+	section.columns img {
+		border-radius: 200px;
+		margin-bottom: 30px;
+		max-height: 100px;
+	}
+
+
+	section.columns h3 {
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+
+/* Hero-about section
+ ---------------------------------------------------------------- */
+
+section.hero-about {
+			background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover !important;
+		top: 0;
+		width: 100%;
+}
+
+.box-text {
+	color: white;
+    font-size: 60px;
+    line-height: 600px;
+    text-align: center;
+    text-shadow: -2px 0px 6px rgba(150, 150, 150, 1);
+}
+
+/* Team section 
+ ---------------------------------------------------------------- */
+
+ img.team{
+ 		margin: 0 auto;
+		border-radius: 200px !important;
+		margin-bottom: 30px !important;
+		max-height: 220px !important;
+
+	}
+
+.personal h3 {
+	font-size: 25px !important;
+	margin-bottom: 5px !important; 
+}
+
+.personal h4 {
+	margin-bottom: 10px !important;	
+}
+
+/* Hero section
+ ---------------------------------------------------------------- */
+
+section.hero {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+	section.hero .container,
+	section.hero .row,
+	section.hero .column {
+		height: 100%;
+	}
+
+	section.hero .text {  
+    	border: 1px solid #fff;
+		color: white;
+		font-size: 48px;
+		left: 0;
+		margin: 0 auto;
+		padding: 10px 10px;
+		position: absolute;
+		right: 0;
+		text-align: center;
+		text-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+		text-transform: uppercase;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 66.66666667%;
+	}
+
+		section.hero .text h1 {
+			border: 1px solid #fff;
+			font-size: 50px;
+			padding: 10px 10px;
+		}
+
+/* multi section 
+----------------------------------------------------------------*/
+
+section.multi {
+	padding: 40px 0;
+}
+
+/* testimonial
+ ---------------------------------------------------------------- */
+
+section.testimonial h2 {
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+}
+
+section.testimonial.blue {
+	background-color: #205193;
+	color: white;
+	padding: 40px 0;
+}
+
+section.testimonial.grey {
+	background-color: #2A2F35;
+	color: white;
+	padding: 40px 0;
+}
+
+.test {
+	background-color: #D7D7D7;
+}
+
+
+/* Article style
+ ---------------------------------------------------------------- */
+
+article + article {
+	margin-top: 30px;
+}
+
+	article img {
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+		margin-bottom: 30px;	
+	}
+
+
+/* Logotyper
+ ---------------------------------------------------------------- */
+
+.logos {
+	background-color: #EDEDED;
+	padding: 50px 0;
+}
+
+img.logo {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	border: 1px solid #e4e4e4 !important;
+	background-color: white;
+	margin: 15px 15px;
+	padding: 15px;
+	position: relative;
+}
+
+
+/* Sidebar
+ ---------------------------------------------------------------- */
+
+/*# {
+	background-color: #2A2F35;
+	border: solid 1px black;
+	color: white;
+		
+}*/
+
+.widget h4,.widget label{
+	display: none;
+}
+
+
+	.widget ul {
+		background: #2A2F35;
+		border-bottom: : solid 2px #626262;
+		line-height: 1;
+		margin: 0;
+		padding-left: 0;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+		.widget  ul > li {
+			    display: block;
+    color: #b8b8b8;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-bottom: 2px solid rgba(255,255,255,0.15);
+    margin: 0;
+    font-size: 14px;		
+}
+	
+
+		#widget-area input[type="text"] {
+			background-color: #f3f3f3;
+			border: none;
+			color: #9B9B9B;
+			height: 40px;
+			padding: 0 15px;
+			width: 100%;
+		}
+
+		#widget-area  input[type="submit"] {
+			background: #205193;
+		    border: none;
+		    border-radius: 0;
+			color: #FFF;
+			font-size: 14px;
+		    height: 40px;
+		    line-height: 1;
+			margin-top: 10px;
+			margin-bottom: 20px;
+		    padding: 10px 30px;
+		    text-align: center;
+		    text-decoration: none;
+		    text-transform: uppercase;
+		    width: 100%;
+		}
+
+/* om oss style
+ ---------------------------------------------------------------- */
+
+.omoss h1{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.omoss p {
+	text-align: center;
+}
+
+/* contact style
+ ---------------------------------------------------------------- */
+
+.nf-form-fields-required {
+	display: none;
+}
+
+
+/* standard style
+ ---------------------------------------------------------------- */
+
+.standard h1{
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+/* page 404 style 
+ ---------------------------------------------------------------- */
+
+ .page-no {
+ 	height: 350px;
+ 	margin-top: 150px;
+ }
+
+ 	.page-no h1 {
+ 		font-size: 70px;		
+ 	}
+
+ 	.page-no h2 {
+ 		font-size: 60px !important;
+ 		margin-top: 0px !important;	
+ 	}
+
+ 	.page-no h3 {
+ 		font-size: 50px;
+ 	}
+
+
+/* footer styles
+ ---------------------------------------------------------------- */
+
+
+
+#footer a,
+#footer p {
+	color: #9B9B9B;
+}
+
+
+#footer .fa {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	background-color: #2A2F35;
+	color: #9B9B9B;
+	height:auto;
+}
+
+	#footer ul {
+		list-style:none;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding-left: 0px !important;
+	}
+
+		#footer ul li {
+			display:inline-block;
+			margin-left:10px;
+		}
+
+
+/* Media queries
+ ---------------------------------------------------------------- */
+
+@media (max-width: 991px) {
+
+	img.team {
+		width: 400px !important;
+		border-radius: 200px !important;
+		max-height: 50% !important;
+	}
+
+	#header .menu li {
+		font-size: 10px !important;
+		margin-left: 0px;
+		padding: 0 12px;
+	}
+
+	#header .logo_menu {
+		font-size: 22px;
+	}
+
+	section.hero h1 {
+		font-size: 30px !important;
+	}
+}
+
+@media (max-width: 800px) {
+
+	#header .logo_menu {
+		font-size: 20px;
+	}
+
+	#header .menu li {
+		font-size: 10px !important;
+	}
+
+	section.testimonial h2 {
+		font-size: 25px;
+	}
+
+	.text-multi {
+		text-align: center;
+	}
+
+	img{
+		width: 100%;
+	}
+
+	img.logo{
+		margin: 0 auto !important;
+		margin-top: 18px !important;
+		max-width: 70%;
+	}
+
+	#footer p {
+		margin-bottom: 20px !important;
+	}
+
+	#proyect p {
+		margin-bottom: 20px !important;
+
+	}
+
+	img.team {
+		width: 300px !important;
+		border-radius: 200px !important;
+		max-height: 50% !important;
+	}
+
+	.multi-pic {
+		width: 100% !important;
+	}
+
+	
+}
+
+@media (max-width: 637px) {
+
+
+	#header .menu li {
+		font-size: 10px;
+	}
+
+	section.hero h1 {
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 415px){
+
+	#header .logo_menu {
+		font-size: 15px;
+	}
+}
